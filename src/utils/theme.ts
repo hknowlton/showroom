@@ -1,14 +1,11 @@
-export default {
+ const theme = {
   main: {
     body: '#E4ECF0',
     blue: {
-      primary: '#00AED9',
-      hover: '#018DC0',
-      medium: '#00619E',
-      dark: '#183558',
-      stroke: '#122946',
-      pastel: '#CFEAF2',
-      darker: '#0B1F36'
+      primary: '#55B49D',
+      hover: '#49a690',
+      medium: '#3a8371',
+      dark: '#234e43',
     },
     gray: {
       background: '#F4F8FA',
@@ -56,3 +53,5 @@ export default {
   boxShadow: 'rgba(25, 41, 61, 0.18) 0px 2px 3px 1px',
   borderRadius: '3px'
 };
+
+export default theme;

@@ -1,15 +1,11 @@
-import React, { ReactNode } from 'react'
- 
-import { Wrapper } from './styles'
+import React, { ReactNode } from 'react';
+
+import { Wrapper } from './styles';
 
 type Props = {
-    children: ReactNode
-}
+  children: ReactNode;
+};
 
-export function Hero({children}: Props) {
-return (
-    <Wrapper>
-        {children}
-    </Wrapper>
-)
+export function Hero({ children }: Props) {
+  return <Wrapper>{children}</Wrapper>;
 }

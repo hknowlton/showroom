@@ -157,7 +157,7 @@ export function EmptyVictoryLineChartTime({
           textAlign: 'center',
           fontSize: '26px',
           fontWeight: 600,
-          color: theme.main.blue.darker,
+          color: theme.main.black.primary,
           opacity: '1'
         }}
       >
